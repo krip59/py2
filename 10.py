@@ -8,24 +8,10 @@
 n = int(input("Введите число монеток: "))
 count=0
 count_2=0
-for _ in range(1,n):
-    a = int(input())
+for _ in range(n):
+    a =int(input ("Введите число 0 или 1:"))
     if a == 0:
-        count+=1
+         count+=1
     else: count_2+=1
-print(count)
-print(count_2)         
-n = int(input("Введите число монеток: "))
-k = 0
-for i in range(n):
-    v = int(input())
-    if v == 1:
-        k += 1
-print(k if k<n/2 else n-k)
-
-
-
-
-
-
- 
+print("Нужно перевернуть:", count)
+         
